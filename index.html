@@ -1081,7 +1081,7 @@ input:hover, textarea:hover {
         
         <div class="bg-white rounded-2xl p-5 md:p-8 shadow-xl border border-orange-100">
             <form action="https://formspree.io/f/xlgwnboa" method="POST" id="my-form" class="space-y-3 md:space-y-4">
-                <input type="hidden" name="_next" value="https://ankelitewealth.github.io/ank1/success.html">
+                <input type="hidden" name="_next" value="https://ankelitewealth.github.io/ank2/success.html">
                 <input type="hidden" name="_subject" value="New Wealth Consultation Inquiry">
 
                 <div class="grid md:grid-cols-2 gap-3 md:gap-4">
@@ -1320,7 +1320,7 @@ function showCalculator(index) {
     }).then(response => {
       if (response.ok) {
         // THIS IS THE REDIRECT FORCE
-        window.location.href = "https://ankelitewealth.github.io/ank1/success.html";
+        window.location.href = "https://ankelitewealth.github.io/ank2/success.html";
       } else {
         response.json().then(data => {
           if (Object.hasOwn(data, 'errors')) {
